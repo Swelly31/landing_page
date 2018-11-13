@@ -1,0 +1,116 @@
+html {
+    font-family: DIN Condensed;
+    font-size: 1,5em;
+}
+.wrapper {
+  /* The image used */
+  background: url("renee-fisher-1106240-unsplash V2.jpg");
+  
+
+  /* LIMITE BASSE */
+  min-height: 1200px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.navbar {
+  position: absolute;
+  padding-bottom: 0px;
+  margin: 0px;
+  max-height: 20px;
+  width: 100%;
+}
+
+
+/* Position du logo dans la nav bar */
+.logo  {position: left; }
+
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  max-height: 60px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.topnav a:hover {
+  color: grey;
+}
+
+/* Position de l'avatar dans la nav bar */
+.navbar_avatar {
+  float: right;
+  text-align: center;
+  padding: 5px;
+  color: black;
+}
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+/* LE TITRE */
+
+.container_title {
+    width: 100%;
+     float: center;
+  position: center;
+
+  text-align: center;
+ 
+  text-decoration: none;
+  font-size: 72px;
+}
+
+
+/* TITRE */
+.topnav_title  {
+  float: center;
+  position: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 72px;
+}
+
+
+/* LE BOUTON */
+
+.btn-round {
+    border-radius: 2rem;
+
+}
+
+
+.btn-primary {
+
+font-size: 18px;
+font-family: Arial;
+background-color: #fff;
+border: 1rem solid #fff;
+box-shadow:2px 2px 8px #999;
+}
+
+.btn-round:hover {
+
+    box-shadow:2px 2px 8px black;
+}
+
+
+
